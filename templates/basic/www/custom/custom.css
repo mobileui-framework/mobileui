@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.eot?v=4.4.0');
+  src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	font-family: "Helvetica Neue", HelveticaNeue, "Helvetica-Neue",	Helvetica, "BBAlpha Sans", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+}
+/*Page sample  ------------------------------------------------------------------ */
+.mui-page-header {
+	background-color: #ecf0f1;
+	border-bottom: solid 1px #bbb;
+}
+.mui-page-logo {
+	width: 40px;
+	height: 40px;
+	margin: auto;
+	background-position: center;
+	background-image: url(images/logo-40.png);
+	background-repeat: no-repeat;
+}
+.mui-page-title {
+	width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 12px;
+}
+.mui-page-body {}
+.mui-page-body-content {
+	padding: 10px;
+}
+/* GoBack button ------------------------------------------------------------------ */
+.mui-backarrow {
+	position: absolute;
+	top: 4px;
+	left: 5px;
+	width: 40px;
+	height: 37px;
+}
+.mui-backarrow:after {
+	font-family: FontAwesome;
+	content: '\f104';
+	font-size: 35px;
+	color: #1A7EFA;
+}
+
