@@ -1,5 +1,5 @@
 # MobileUI
-## Development Web Applications, PWA, and hybrid Apps, multiplatform, in a simple way using HTML, CSS and Javascript
+## Web Applications Development, PWA, and hybrid Apps, cross-platform, in a simple way using HTML, CSS and Javascript
 MobileUI is an open-source framework, lightweight, optimized for PWA, Web Applications, Phonegap/Apache Cordova hybrid Apps for iOS and Android, which allows developing in a fast and simple way Professional Apps, multiplatform, with user interface auto-scale adaptable to various screen sizes using known technologies such as HTML, CSS, and Javascript.
 
 ### English
