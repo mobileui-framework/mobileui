@@ -1,7 +1,7 @@
 html,body {
 	overflow-x: hidden;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	position: fixed;
   touch-action: manipulation;
   font-size: 100%;
@@ -86,9 +86,11 @@ img {
 /*Specific styles for standard ViewPorts, mui-screen and mui-viewport*/
 /*Estilos particulares para los ViewPorts estándares mui-screen y mui-viewport*/
 #mui-screen {
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	left: 0px;
+	right: 0px;
+	bottom: 0px;
 	margin: 0px 0px 0px 0px;
 	overflow: hidden;
 	background-color: black; /*for windows phone bounce*/
