@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.example.hello" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.mobileui.demo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>MobileUI</name>
     
     <description>
@@ -71,11 +71,6 @@
 		<preference name="StatusBarOverlaysWebView" value="false" />
 	 	<!-- <preference name="StatusBarBackgroundColor" value="#2a3542" /> -->
 	 	<preference name="StatusBarStyle" value="lightcontent" />
-	<!--
-	<plugin name="phonegap-plugin-push" spec="https://github.com/havesource/cordova-plugin-push">
-		<variable name="SENDER_ID" value="387896298179" />
-	</plugin>    
-	-->
 	<plugin name="cordova-support-google-services" />
 	<plugin name="phonegap-plugin-multidex" />
 	<plugin name="cordova-plugin-actionsheet" spec="^2.3.3" />
@@ -84,7 +79,7 @@
 		<!-- ********************************************************************************** -->
 	<!-- ********************** ICONS & SPLASH CONFIGURATION ****************************** -->
 	<!-- ********************************************************************************** -->
-		<icon src="icon.png" /> <!-- Icono por defecto, debe estar en la raiz -->
+		<icon src="www/pgbomit/icons/ios/icon.png" /> <!-- Icono por defecto, debe estar en la raiz -->
 	<platform name="ios">
 
 		<edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
